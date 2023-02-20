@@ -63,7 +63,7 @@ const App = () => {
         Clear
       </button>
       <br />
-      <h3>{result}</h3>
+      <h3 data-testid="answer">{result}</h3>
     </div>
   );
 };
